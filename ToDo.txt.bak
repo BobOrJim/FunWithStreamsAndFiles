@@ -3,8 +3,12 @@ ToDos:
 00: Kolla centiro filmerna igen.
 
 
+01: Create a common project, with Movie models.
 
+02: Create list of 5 movies.
 
+02A: Create a simple model movie add it to a CSV file.
+02B: Read Models from a CSV file to a string.
 
 
 
