@@ -3,13 +3,7 @@ ToDos:
 00: Kolla centiro filmerna igen.
 
 
-
-
-
-
-
-//Kommentera varje rad vilken kattegori den tillhör.
-
+01 xml
 
 
 
@@ -20,7 +14,8 @@ csv
 json
 xml
 txt
-SQL
+IFTMIN
+IFSTA
 
 
 

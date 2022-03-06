@@ -21,7 +21,7 @@ namespace StreamsAndFiles.UnitTests
         }
 
         [TestMethod]
-        public void WriteMoviesToJson_MoviesShouldBeEqualAsReadFromJson_()
+        public void WriteMoviesToJson_MoviesShouldBeEqualAsReadFromJson()
         {
             //Arrange
             var settings = new Settings() { FilePath = @"C:\MyOneDrive\OneDrive - Centiro Solutions AB\Skrivbordet\Studies SystemUtvecklare\FunWithStreamsAndFiles\src\StreamsAndFiles.UnitTests\test.json" };
@@ -37,3 +37,4 @@ namespace StreamsAndFiles.UnitTests
         }
     }
 }
+
