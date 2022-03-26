@@ -1,11 +1,5 @@
 ToDos:
 
-00: Kolla centiro filmerna igen.
-
-
-01 xml
-
-
 
 
 
@@ -14,6 +8,8 @@ csv
 json
 xml
 txt
+IFTMIN
+IFSTA
 
 
 
@@ -41,7 +37,6 @@ DirectoryInfo - provides instance methods for creating, moving, and enumerating 
 Path - provides methods and properties for processing directory strings in a cross-platform manner.
 
 
-
 02: Here are some commonly used stream classes:
 
 FileStream – for reading and writing to a file.
@@ -57,7 +52,6 @@ NetworkStream – for reading and writing over network sockets.
 PipeStream – for reading and writing over anonymous and named pipes.
 
 CryptoStream – for linking data streams to cryptographic transformations.
-
 
 
 03: Here are some commonly used reader and writer classes:

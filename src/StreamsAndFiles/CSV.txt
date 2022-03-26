@@ -1,0 +1,36 @@
+    public class MyModel
+    {
+        public string MyProp1 { get; set; }
+        public string MyProp2 { get; set; }
+        public string MyProp3 { get; set; }
+        public string MyProp4 { get; set; }
+        public string MyProp5 { get; set; }
+    }
+
+#############
+            IEnumerable<MyModel> MyModelList = new List<MyModel>();
+            try
+            {
+                MyModelList = File.ReadAllLines(fileName).Skip(settings.FirstRowsToSkip).Select(MyModelMapper.Map);
+            }
+            catch (Exception e)
+            {
+                //logg stuff
+            }
+############
+    public static class MyModelMapper
+    {
+        public static MyModel Map(string csvLine)
+        {
+            string[] values = csvLine.Split(';');
+            return new MyModel()
+            {
+                MyProp1 = values[1],
+                MyProp2 = values[2],
+                MyProp3 = values[3],
+                MyProp4 = values[5],
+                MyProp5 = values[6]
+            };
+        }
+    }
+############
